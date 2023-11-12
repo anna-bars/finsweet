@@ -1,0 +1,135 @@
+<header>
+    <div class="header__body">
+        <div class="container-w-53">
+            <div class="blog">
+                <div class="blog__author">
+                    <div class="author__img">
+                        <img src="../../../assets/img/blog-post/01.png" alt="image">
+                    </div>
+                    <div class="author__info">
+                        <p class="author__name">Andrew Jonson</p>
+                        <p class="posted-time">Posted on 27th January 2022</p>
+                    </div>
+                </div>
+                <div class="blog__name">
+                    Step-by-step guide to choosing great font pairs
+                </div>
+                <div class="blog__category">
+                    <img src="../../../assets/img/blog-post/shuttle.png" alt="icon" class="category__icon">
+                    <p class="category__name">Startup</p>
+                </div>
+            </div>
+        </div>
+        <div class="container blog__img-container"></div>
+    </div>
+</header>
+<section class="blog__structure">
+    <div class="container-w-58">
+        <div class="blog__item">
+            <h2 class="blog__subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
+            </h2>
+            <p class="blog__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque 
+                viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque 
+                penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque 
+                egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.
+            </p>
+        </div>
+        <div class="blog__item">
+            <h2 class="blog__subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
+            </h2>
+            <p class="blog__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque 
+                viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque 
+                penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque 
+                egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.
+            </p>
+            <p class="blog__text second_paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque 
+                viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque 
+                penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque 
+                egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.
+            </p>
+            <ul class="blog__list">
+                <li>Lorem ipsum dolor sit amet</li>
+                <li>Non blandit massa enim nec scelerisque</li>
+                <li>Neque egestas congue quisque egestas</li>
+            </ul>
+            <p class="blog__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque 
+                viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque 
+                penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque 
+                egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.
+            </p>
+        </div>
+        <div class="blog__item">
+            <h2 class="blog__subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
+            </h2>
+            <p class="blog__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque 
+                viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque 
+                penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque 
+                egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.
+            </p>
+        </div>
+        
+    </div>
+    
+</section>
+<section class="rec">
+    <div class="container">
+        <h2 class="rec__title">What to read next</h2>
+    </div>
+    <div class="container">
+        <div class="rec__item" *ngFor="let item of postsData">
+            <app-rec-post [data]="item"></app-rec-post>
+        </div>
+        <!-- <div class="rec__item">
+            <img src="../../../assets/img/blog-post/001.png" alt="image" class="rec__img">
+            <div class="rec-author-date">By <span>John Doe</span>   l   Aug 23, 2021 </div>
+            <p class="rec__name">
+                A UX Case Study Creating a Studious Environment for Students: 
+            </p>
+            <p class="rec__text">
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                 fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+            </p>
+        </div>
+        <div class="rec__item">
+            <img src="../../../assets/img/blog-post/001.png" alt="image" class="rec__img">
+            <div class="rec-author-date">By <span>John Doe</span>   l   Aug 23, 2021 </div>
+            <p class="rec__name">
+                A UX Case Study Creating a Studious Environment for Students: 
+            </p>
+            <p class="rec__text">
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                 fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+            </p>
+        </div> -->
+    </div>
+    <div class="container">
+        <div class="blogs-divider"></div>
+    </div>
+</section>
+<section class="join blog-post__join">
+    <div class="container-without-flex">
+        <h2 class="join__title">
+            Join our team to be a part of our story
+        </h2>
+        <p class="join__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+             sed do eiusmod tempor incididunt.
+        </p>
+        <button>
+            <a href="#">Join Now</a>
+        </button>
+    </div>
+</section>

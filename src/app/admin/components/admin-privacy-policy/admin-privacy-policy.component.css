@@ -1,0 +1,28 @@
+.privacy-policy__title {
+    margin: 0 0 32px !important;
+}
+.contt {
+    width: 87%;
+    margin: auto;
+}
+form {
+    position: absolute;
+    z-index: 14;
+    top: 30px;
+    width: 90%;
+    background-color: #a8aab3;
+    padding: 28px;
+    border-radius: 17px;
+}
+mat-form-field {
+    width: 100%;
+}
+.close-button {
+    margin-bottom: 10px;
+    display: block;
+    width: fit-content;
+}
+.save-button {
+    display: block;
+    margin: auto;
+}

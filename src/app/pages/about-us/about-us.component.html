@@ -1,0 +1,135 @@
+<header>
+    <div class="header__about-us">
+        <div class="container about__container">
+            <div class="about-us__body">
+                <div class="about__item">
+                    <h2 class="about__title">ABOUT US</h2>
+                    <h3 class="about__subtitle">
+                        We are a team of content writers who share their learnings
+                    </h3>
+                </div>
+                <div class="about__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+            </div>
+        </div>
+        <div class="container-without-flex">
+            <div class="result">
+                <div class="result__container">
+                    <div class="result__block">
+                        <div class="result__item">
+                            <div class="result__num">12+</div>
+                            <div class="result__name">Blogs Published</div>
+                        </div>
+                        <div class="result__item">
+                            <div class="result__num">18k+</div>
+                            <div class="result__name">Views on Finsweet</div>
+                        </div>
+                        <div class="result__item">
+                            <div class="result__num">30k+</div>
+                            <div class="result__name">Total active Users</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="design__container">
+                    <div class="design__element-1"></div>
+                    <div class="design__element-2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+   
+
+    
+</header>
+<section class="mision-vision">
+    <div class="container-without-flex mv__container">
+        <div class="mision-vision__body">
+            <div class="mision__block">
+                <h2 class="mv__title">Our mision</h2>
+                <h3 class="mv__subtitle">
+                    Creating valuable content for creatives all around the world
+                </h3>
+                <p class="mv__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                    tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec.
+                     Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus.
+                </p>
+            </div>
+            <div class="vision__block">
+                <h2 class="mv__title">Our Vision</h2>
+                <h3 class="mv__subtitle">
+                    A platform that empowers individuals to improve
+                </h3>
+                <p class="mv__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                     incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec.
+                     Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="team">
+    <div class="container">
+        <div class="team__item">
+            <h2 class="team__title">Our team of creatives</h2>
+            <h3 class="team__subtitle">
+                Lorem ipsum dolor sit amet, consectetur 
+                adipiscing elit, sed do eiusmod tempor incididunt.
+            </h3>
+            <p class="team__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
+                 ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+                 aliquip ex ea commodo consequat. Duis aute irure
+                 dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.
+            </p>
+        </div>
+        <div class="team__item-img">
+            <img src="../../../assets/img/about-us/full-01.png" alt="shape" class="team__img">
+        </div>
+    </div>
+</section>
+<section class="started-story">
+    <div class="container">
+        <div class="started-story__item-img">
+            <img src="../../../assets/img/about-us/full-2-02.png" alt="img" class="started-story__img">
+        </div>
+        <div class="started-story__item">
+            <h2 class="started-story__title">Why we started this Blog</h2>
+            <h3 class="started-story__subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt.
+            </h3>
+            <p class="started-story__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                 nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Duis aute
+                 irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.
+            </p>
+        </div>
+    </div>
+    
+</section>
+<section class="authors">
+    <div class="container-without-flex">
+        <h2 class="authors__title">List of Authors</h2>
+    </div>
+    <div class="container">
+        <div *ngFor="let i of authorData" class="authors__item">
+            <app-authors [elem]="i"></app-authors>
+        </div>  
+    </div>
+    <div class="container  author__cont-second">
+        <div *ngFor="let i of authorData2" class="authors__item">
+            <app-authors [elem]="i"></app-authors>
+        </div>
+    </div>
+</section>
+<app-join></app-join>

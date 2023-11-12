@@ -1,0 +1,323 @@
+@media screen and (max-width: 1270px){
+    .team__title {
+        font-size: 31px;
+        margin-top: 43px;
+    }
+    .started-story__item{
+        font-size: 31px;
+    }
+    .team__subtitle {
+        max-width: 412px;
+        font-size: 20px;
+        margin: 8px 0;
+    }
+    .team__text {
+        max-width: 452px;
+        font-size: 14px;
+    }
+    .started-story__subtitle {
+        font-size: 20px;
+        max-width: 497px;
+        margin: 8px 0;
+    }
+    .result__block {
+        width: 78%;
+    }
+    .started-story__item {
+        padding-top: 40px;
+    }
+    .team__item-img {
+        height: 378px;
+    }
+    .started-story__text {
+        font-size: 14px;
+    }
+    .cont-for-newsletter p {
+        font-size: 23px;
+        line-height: 32px;
+    }
+    .about__subtitle {
+        font-size: 37px;
+    }
+}
+@media screen and (max-width: 1005px){
+    .result__num {
+        font-size: 45px;
+    }
+    .result__name {
+        font-size: 14px;
+    }
+    .result__block {
+        padding: 22px 38px;
+        width: 82%;
+    }
+    .about__subtitle {
+        font-size: 32px;
+    }
+    .about__item {
+        padding: 38px;
+    }
+    .about__text {
+        font-size: 13px;
+        padding-top: 73px;
+        margin-left: 29px;
+        margin-right: 0;
+    }
+    .result {
+        margin-top: -14px;
+    }
+    .mv__subtitle {
+        font-size: 22px;
+        max-width: 312px;
+        margin: 16px 0 9px;
+    }
+    .mv__text {
+        font-size: 13px;
+    }
+    .team__title {
+        font-size: 26px;
+        margin-top: 13px;
+    }
+    .team__subtitle, .started-story__subtitle {
+        max-width: 422px;
+        font-size: 17px;
+        margin: 4px 0;
+    }
+    .started-story__title {
+        font-size: 22px;
+    }
+    .started-story__item {
+        padding-top: 13px;
+    }
+    .started-story__text {
+        max-width: 388px;
+        font-size: 12px;
+    }
+    .team__text {
+        max-width: 365px;
+        font-size: 12px;
+    }
+    .team__item-img {
+        height: 252px;
+    }
+    .author__img {
+        width: 100px;
+        margin-bottom: 10px;
+    }
+    .authors__name {
+        font-size: 20px;
+    }
+    .authors__profession {
+        font-size: 10px;
+        margin-bottom: 11px;
+    }
+    .cont-for-newsletter {
+        display: block;
+    }
+    .cont-for-newsletter p {
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width: 810px){
+    .toolbar__nav {
+        display: none;
+    }
+    .about-us__body {
+        width: 97%;
+    }
+    .about__text {
+       margin-right: 5px;
+       background-color: #ffffff7a;
+        padding: 73px 3px 3px;
+    }
+    .result {
+        margin-top: -89px;
+    }
+    .team__subtitle{
+        max-width: 297px;
+    }
+    .started-story__subtitle {
+        max-width: 342px;
+    }
+    .author__img {
+        width: 85px;
+    }
+    .authors__item img {
+        margin-bottom: 0;
+    }
+    .authors__name {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .authors__profession {
+        font-size: 9px;
+        margin-bottom: 5px;
+    }
+    .mision-vision__body {
+        width: 89.5%;
+        padding-top: 69px;
+    }
+    .started-story__text {
+        max-width: 293px;
+        font-size: 11px;
+    }
+    .team__text {
+        max-width: 297px;
+        font-size: 11px;
+    }
+    .team {
+        margin-bottom: 77px;
+    }
+    .about__subtitle {
+        font-size: 28px;
+        margin-top: 11px;
+    }
+    .result__block {
+        padding: 22px 18px;
+        width: 100%;
+    }
+    .result__item {
+        margin-right: 7px;
+    }
+    .design__container {
+        width: 110.5%;
+    }
+}
+@media screen and (max-width: 620px){
+    footer .container {
+        display: block;
+    }
+    .started-story__item-img {
+        width: 32%;
+    }
+    .result__num {
+        font-size: 25px;
+    }
+    .result__name {
+        font-size: 11px;
+    }
+    .result__block {
+        padding: 22px 11px;
+    }
+    .about__subtitle {
+        font-size: 22px;
+        margin-top: 19px;
+    }
+    .about__text {
+        padding: 40px 3px 3px;
+        font-size: 11px;
+    }
+    .result {
+        margin-top: -112px;
+    }
+    .author__img {
+        width: 60px;
+    }
+    .authors__item {
+        padding: 20px 0;
+    }
+    .authors__name {
+        font-size: 12px;
+    }
+    .authors__profession {
+        font-size: 8px;
+    }
+    .authors__logo a img {
+        width: 12px;
+    }
+    .join__title {
+        max-width: 289px;
+        font-size: 27px;
+        line-height: 30px;
+    }
+    .join__text {
+        max-width: 311px;
+        font-size: 12px;
+    }
+    .design__container div {
+        height: 13px;
+    }
+}
+@media screen and (max-width: 500px){
+    .about-us__body {
+        display: block;
+    }
+    .about__item {
+        width: 100%;
+    }
+    .about__text {
+        width: 100%;
+        padding: 5px;
+        margin: 0;
+    }
+    .result {
+        background-size: contain;
+        background-position: center;
+    }
+    .mision-vision__body, .team .container, .started-story .container {
+        display: block;
+    }
+    .mision__block {
+        border: 5px solid white;
+        padding: 9px;
+        margin-bottom: 15px;
+    }
+    .team__title, .team__subtitle, .team__text, .started-story__title, .started-story__subtitle, .started-story__text {
+        max-width: 100%;
+    }
+    .team__item-img {
+        height: 173px;
+    }
+    .team {
+        border-top: 3px dashed #44485e2e;
+        border-bottom: 3px dashed #44485e2e;
+        padding: 15px 0;
+    }
+    .team__img {
+        margin-top: 15px;
+    }
+    .started-story {
+        border-top: 3px dashed #44485e2e;
+        border-bottom: 3px dashed #44485e2e;
+        padding: 15px 0;
+    }
+    .about-us__join {
+        margin-top: 80px;
+    }
+    button {
+        padding: 16px 15px;
+    }
+    .toolbar-button {
+        font-size: 15px;
+        padding: 16px 18px;
+    }
+    .authors__item {
+        padding: 10px 0;
+        width: 45%;
+        margin-bottom: 14px;
+    }
+    .authors .container {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .result__container {
+        width: 99.5%;
+    }
+    .result__block {
+        padding: 14px 17px;
+    }
+    .result__num {
+        font-size: 16px;
+    }
+    .result__name {
+        font-size: 9px;
+    }
+    .cont-for-form {
+        display: block;
+    }
+    .cont-for-newsletter input {
+        width: 100%;
+        margin-bottom: 7px;
+    }
+}

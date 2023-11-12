@@ -1,0 +1,215 @@
+@media screen and (max-width: 1140px){
+    .header__subtitle {
+        max-width: 335px;
+        font-size: 30px;
+    }
+    .header__main-text {
+        max-width: 505px;
+        font-size: 15px;
+    }
+    .post__category {
+        margin: 10px 0 15px;
+    }
+    .post__title {
+        max-width: 400.892px;
+        font-size: 30px;
+        margin-bottom: 3px;
+    }
+    .post__text {
+        max-width: 553px;
+        font-size: 14px;
+    }
+    .cont-for-newsletter p {
+        font-size: 23px;
+    }
+}
+@media screen and (max-width: 1030px){
+    .cont-for-newsletter {
+        display: block;
+    }
+    .cont-for-newsletter p {
+        max-width: 100%;
+        margin-bottom: 7px;
+    }
+    .category__title {
+        font-size: 23px;
+    }
+    .category__text {
+        font-size: 14px;
+    }
+    .category__item {
+        padding: 23px;
+    }
+}
+@media screen and (max-width: 856px){
+    .post__category {
+        margin: 13px 0 5px;
+    }
+    .post__title {
+        max-width: 273.892px;
+        font-size: 24px;
+    }
+    .post__text {
+        max-width: 476px;
+        font-size: 13px;
+    }
+    .header__subtitle {
+        max-width: 293px;
+        font-size: 26px;
+        margin: 11px 0 8px;
+    }
+    .header__main-text {
+        max-width: 490px;
+        font-size: 13px;
+        margin: 9px 0 18px;
+    }
+    .category__title {
+        font-size: 20px;
+    }
+    .category__text {
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+}
+
+@media screen and (max-width: 800px){
+    .toolbar__nav {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 735px){
+    .post__title {
+        max-width: 248.892px;
+        font-size: 20px;
+    }
+    .post__text {
+        font-size: 12px;
+    }
+    .post__category {
+        margin: 2px 0 5px;
+    }
+    .category__title {
+        margin: 0;
+    }
+    .category__title {
+        font-size: 17px;
+    }
+    .category__item {
+        padding: 17px;
+    }
+
+}
+@media screen and (max-width: 625px){
+    .category__item {
+        width: 36%;
+        margin-bottom: 12px;
+    }
+    .category .container {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .footer__nav__cont {
+        display: block;
+    }
+    .post__item-img img {
+        /* width: 100%; */
+        height: 100%;
+    }
+    .post__item-img {
+        max-width: 40%;
+    }
+    .header__body .container {
+        display: block;
+    }
+    .header__img {
+        width: 45%;
+    }
+    .header__item-img {
+        text-align: right;
+        margin-top: -40px;
+    }
+}
+@media screen and (max-width: 520px){
+    .category__item {
+        width: 44%;
+    }
+    .header__img {
+        display: none;
+    }
+    .post__title {
+        font-size: 18px;
+    }
+    .post__text {
+        font-size: 10px;
+        max-width: 276px;
+    }
+    .post__item-img {
+        max-width: 42%;
+    }
+    .header__main-text {
+        max-width: 314px;
+        font-size: 11px;
+    }
+    .cont-for-form {
+        display: block;
+    }
+    .cont-for-form button {
+        margin-top: 14px;
+    }
+    .cont-for-newsletter input {
+        width: 100%;
+    }
+    .cont-for-newsletter p {
+        font-size: 19px;
+        line-height: 31px;
+    }
+    .join__title {
+        max-width: 232px;
+        font-size: 25px;
+        line-height: 34px;
+    }
+    .blog-category {
+        margin-bottom: 88px;
+    }
+    
+}
+@media screen and (max-width: 430px){
+    .post__title {
+        font-size: 15px;
+    }
+    .post {
+        display: block;
+    }
+    .post__item-img {
+        max-width: 71%;
+    }
+    .post__title {
+        font-size: 20px;
+        max-width: 280.892px;
+    }
+    .post__text {
+        font-size: 14px;
+        max-width: 345px;
+    }
+    .post {
+        border: 2px dashed #69392d47;
+        padding: 13px
+    }
+    .toolbar-button {
+        padding: 16px 23px;
+        font-size: 15px;
+    }
+    .category__text {
+        font-size: 11px;
+        line-height: 20px;
+    }
+}
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+button {
+    background-color: rgb(195, 193, 193);
+    border-radius: 15px;
+    margin: auto;
+    display: block;
+}
+form {
+    padding: 35px 75px;
+    border-radius: 25px;
+    background-color: #fff;
+    box-shadow: 5px 3px 11px 4px gray, -4px -4px 20px 0px #5362b5e0;
+    margin-top: 15px;
+}
+.closeButton {
+    padding: 7px 9px;
+    margin-bottom: 5px;
+}

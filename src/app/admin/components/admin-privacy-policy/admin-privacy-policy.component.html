@@ -1,0 +1,40 @@
+<div class="contt">
+    <button mat-flat-button color="primary" (click)="edit()">
+        Edit <mat-icon>edit</mat-icon>
+    </button>
+    <h2 class="privacy-policy__title">{{title}}</h2>
+    <p class="privacy-policy__text">{{mainText}}</p>
+    <h2 class="privacy-policy__subtitle">{{subtitle}}</h2>
+    <p class="privacy-policy__text">{{secondParagraph}}</p>
+    <p class="privacy-policy__text privacy-policy__text_margin-bottom-128">
+        {{thirdParagraph}}</p>
+</div>
+<form *ngIf="showForm">
+    <button mat-flat-button color="primary" (click)="close()" class="close-button">
+        <mat-icon>close</mat-icon>
+    </button>
+    <mat-form-field class="example-full-width">
+        <mat-label>Title</mat-label>
+        <textarea matInput #t>{{title}}</textarea>
+    </mat-form-field><br>
+    <mat-form-field class="example-full-width">
+        <mat-label>Main Text</mat-label>
+        <textarea matInput rows="10" #Mntext>{{mainText}}</textarea>
+    </mat-form-field><br>
+    <mat-form-field class="example-full-width">
+        <mat-label>Subtitle</mat-label>
+        <textarea matInput #subt>{{subtitle}}</textarea>
+    </mat-form-field><br>
+    <mat-form-field class="example-full-width">
+        <mat-label>Second Paragraph</mat-label>
+        <textarea matInput rows="10" #secp>{{secondParagraph}}</textarea>
+    </mat-form-field><br>
+    <mat-form-field class="example-full-width">
+        <mat-label>Third Paragraph</mat-label>
+        <textarea matInput rows="10" #thirdp>{{thirdParagraph}}</textarea>
+    </mat-form-field>
+    <button mat-flat-button color="primary" (click)="saveChanges(t, Mntext, subt, secp, thirdp)" class="save-button"
+    type="button">
+        Save changes
+    </button>
+</form>

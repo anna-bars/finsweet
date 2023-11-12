@@ -1,0 +1,39 @@
+{
+    "review": [
+        {
+          "id": 1,
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "authorImg": "../../../assets/img/authors/author-1.png",
+          "authorName": "Floyd Miles",
+          "Location": "Paris, France"
+        },
+        {
+          "id": 2,
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "authorImg": "../../../assets/img/authors/author-2.png",
+          "authorName": "Dianne Russell",
+          "Location": "Sydney, Australia"
+        },
+        {
+          "id": 3,
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "authorImg": "../../../assets/img/home/profile-picture.png",
+          "authorName": "Jonathan Vallem",
+          "Location": "New york, USA"
+        },
+        {
+          "id": 4,
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "authorImg": "../../../assets/img/authors/author-3.png",
+          "authorName": "Jenny Wilson",
+          "Location": "London, United Kingdom"
+        },
+        {
+          "id": 5,
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "authorImg": "../../../assets/img/authors/author-4.png",
+          "authorName": "Leslie Alexander",
+          "Location": "Toronto, Canada"
+        }
+      ]
+}

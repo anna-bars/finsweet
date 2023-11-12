@@ -1,0 +1,13 @@
+img {
+    display: block;
+    margin: 8px 0;
+}
+.custom-button {
+    background-color: rgb(159, 158, 158);
+    color: #ffffff; 
+  }
+  app-author-form {
+    position: absolute;
+    z-index: 5;
+    top: 0;
+  }

@@ -1,0 +1,28 @@
+{
+    "categoryData": [
+        {
+            "id": 1,
+            "img": "assets/img/category/business-01.png",
+            "title": "Business",
+            "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+          },
+          {
+            "id": 2,
+            "img": "assets/img/category/startup-02.png",
+            "title": "Startup",
+            "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+          },
+          {
+            "id": 3,
+            "img": "assets/img/category/economy-03.png",
+            "title": "Economy",
+            "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+          },
+          {
+            "id": 4,
+            "img": "assets/img/category/technology-04.png",
+            "title": "Technology",
+            "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+          }
+    ]
+}

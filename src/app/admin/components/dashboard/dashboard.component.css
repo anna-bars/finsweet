@@ -1,0 +1,10 @@
+mat-icon {
+    padding-top: 5px;
+}
+.cont {
+    background-color: #3f51b554;
+    padding: 0 20px 7px 20px;
+    width: fit-content;
+    border-radius: 15px;
+    margin-bottom: 8px;
+}

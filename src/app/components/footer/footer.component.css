@@ -1,0 +1,33 @@
+@media only screen and (max-width: 1200px){
+    .cont-for-newsletter {
+        display: block;
+    }
+    .cont-for-newsletter p {
+        max-width: 90%;
+        font-size: 30px;
+        line-height: 38px;
+        margin-bottom: 7px;
+    }
+}
+@media only screen and (max-width: 710px){
+    footer .container {
+        display: block;
+    }
+    .cont-for-newsletter p {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .newsletter-subscription {
+        padding: 45px 0;
+        margin: 45px 0 37px;
+    }
+}
+@media only screen and (max-width: 480px){
+    .cont-for-newsletter input {
+        width: 230px;
+        margin-bottom: 10px;
+    }
+    .cont-for-form {
+        display: block;
+    }
+}

@@ -1,0 +1,25 @@
+<form>
+    <button mat-icon-button class="custom-button" class="close-button" 
+    (click)="close()">X</button><br>
+    <mat-form-field class="example-full-width">
+        <mat-label>Title</mat-label>
+        <textarea matInput placeholder="Ex. Design tips for..." #title required [value]="blog.title"></textarea>
+    </mat-form-field><br>
+    <img [src]="blog.img" alt="Blog image" *ngIf="blog"><br>
+    <mat-form-field>
+        <mat-label>Select a Category</mat-label>
+        <mat-select #select aria-required="true" [value]="blog.category">
+          <mat-option *ngFor="let category of categoryName" [value]="category" >{{ category }}</mat-option>
+        </mat-select>
+    </mat-form-field><br>
+    <mat-form-field class="example-full-width">
+        <mat-label>Text</mat-label>
+        <textarea #text matInput placeholder="Ex. Duis aute irure dolor in..." required [value]="blog.text"></textarea>
+    </mat-form-field><br>
+    <button mat-icon-button class="add-btn"  *ngIf="blog"  (click)="saveChanges(title, select, text)">
+        Save changes
+      </button>
+    <button mat-icon-button class="add-btn" (click)="create(title, select, text)" *ngIf="!blog">
+        Create
+      </button>
+</form>

@@ -1,0 +1,46 @@
+<header>
+    <div class="header__body">
+        <div class="container-66">
+            <div class="author">
+                <div class="author__img__cont">
+                    <img src="../../../assets/img/author/01.png" alt="author image" class="author__img">
+                </div>
+                <div class="author__info">
+                    <h2 class="author__title">
+                        Hey there, I’m Andrew Jonhson and welcome to my Blog
+                    </h2>
+                    <p class="author__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                        tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque 
+                        viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus.
+                    </p>
+                    <div class="authors__logo">
+                        <a href="#">
+                            <img src="../../../assets/img/authors/facebook-dark.png" alt="facebook logo">
+                        </a>
+                        <a href="#">
+                            <img src="../../../assets/img/authors/twitter-dark.png" alt="twitter logo">
+                        </a>
+                        <a href="#">
+                            <img src="../../../assets/img/authors/instagram-dark.png" alt="instagram logo">
+                        </a>
+                         <a href="#">
+                            <img src="../../../assets/img/authors/linkedin-dark.png" alt="linkedin logo">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="design">
+                <div class="design__item-1"></div>
+                <div class="design__item-2"></div>
+            </div>
+            
+        </div>
+    </div>
+    <section class="posts">
+        <div class="container-66">
+            <div *ngFor="let item of postData">
+                <app-post-block [data]="item"></app-post-block>
+            </div>
+        </div>
+    </section>

@@ -1,0 +1,190 @@
+<header>
+    <div class="header__body">
+        <div class="container-without-flex">
+            <h2 class="header__title">Posted on startup</h2>
+        <h1>Step-by-step guide to choosing great font pairs</h1>
+        <p class="author-date">By <span>James West</span>  |  May 23, 2022 </p>
+        <p class="header__main-text">
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident.
+        </p>
+        <button><a [routerLink]="'blog'">Read More ></a></button>
+        </div>
+    </div>
+</header>
+<section class="posts">
+<div class="container">
+    <div class="feautured-post">
+        <h2 class="feautured-post__title">Featured Post</h2>
+        <div class="featured-post__container">
+            <img src="../../../assets/img/home/post-img.png" alt="image" loading="lazy">
+            <p class="author-date">By <span>John Doe </span>  l   May 23, 2022</p>
+            <h2 class="feautured-post__title">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+            </h2>
+            <p class="feautured-post__main-text">
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
+                eu fugiat nulla pariatur. 
+                Excepteur sint occaecat cupidatat non proident.
+            </p>
+            <button><a href="#">Read More ></a></button>
+        </div>
+    </div>
+    <div class="all-posts">
+        <div class="all-posts__title-container">
+            <h2 class="all-posts__title">All Posts</h2>
+            <a [routerLink]="'blog'" class="all-posts__link">View All</a>
+        </div>
+        <div class="all-posts__item">
+            <p class="author-date">By <span>John Doe </span>  l   May 23, 2022</p>
+            <a [routerLink]="'blog-post'" class="all-posts__item-title">
+                8 Figma design systems that you can download for free today.
+            </a>
+        </div>
+        <div class="all-posts__item">
+            <p class="author-date">By <span>John Doe </span>  l   May 23, 2022</p>
+            <a   [routerLink]="'blog-post'" class="all-posts__item-title">
+                8 Figma design systems that you can download for free today.
+            </a>
+        </div> 
+        <div class="all-posts__item">
+            <p class="author-date">By <span>John Doe </span>  l   May 23, 2022</p>
+            <a  [routerLink]="'blog-post'" class="all-posts__item-title">
+                8 Figma design systems that you can download for free today.
+            </a>
+        </div>
+        <div class="all-posts__item">
+            <p class="author-date">By <span>John Doe </span>  l   May 23, 2022</p>
+            <a   [routerLink]="'blog-post'" class="all-posts__item-title">
+                8 Figma design systems that you can download for free today.
+            </a>
+        </div> 
+    </div>
+</div>
+</section>
+<section>
+<div id="design-element">
+    <div id="design-element-1"></div>
+    <div id="design-element-2"></div>
+</div>
+</section>
+
+<section>
+<div class="container-without-flex">
+    <div class="about-us-our-mission">
+        <div class="container">
+            <div class="about-us">
+                <h2 class="title">ABOUT US</h2>
+                <h2 class="about-us__subtitle">
+                    We are a community of content writers who share their learnings
+                </h2>
+                <p class="main-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                     tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <a [routerLink]="'about-us'" class="about-us__link">Read More ></a>
+            </div>
+            <div class="our-mission">
+                <h2 class="title">ABOUT US</h2>
+                <h2 class="our-mission__subtitle">
+                    We are a community of content writers who share their learnings
+                </h2>
+                <p class="main-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<section class="category">
+    <div class="container-without-flex">
+        <h3>Choose A Catagory</h3>
+    </div>
+    <div class="container">
+        <div *ngFor="let item of categoryData" class="category__item">
+            <app-categories [data]="item"></app-categories>
+        </div>
+    </div>
+</section>
+<section class="started-story">
+<div class="container-without-flex">
+    <div class="started__body">
+        <div class="started-story__container">
+            <div class="empty-div"></div>
+            <div class="started-story__item">
+                <h2 class="started-story__title">Why we started </h2>
+                <h3 class="started-story__subtitle">
+                    It started out as a simple idea and evolved into our passion
+                </h3>
+                <p class="started-story__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+                </p>
+                <button>
+                    <a [routerLink]="'about-us'">Discover our story ></a>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<!-- AUTHORS ------------------------------------------------------------- -->
+<section class="authors">
+<div class="container-without-flex">
+    <h2 class="authors__title">List of Authors</h2>
+</div>
+<div class="container">
+    <div *ngFor="let i of authorData" class="authors__item">
+        <app-authors [elem]="i"></app-authors>
+    </div>
+</div>
+</section>
+<section class="company">
+<div class="container">
+    <p>
+        We are<br>
+        <span>Featured in</span>
+    </p>
+    <div *ngFor="let elem of companyImg">
+        <a href="#">
+            <img [src]="elem" alt="logo" loading="lazy">
+        </a>
+    </div>
+</div>
+</section>
+<section class="users-reviews">
+<div class="user-body">
+    <div class="container">
+        <div class="review-section">
+            <h2 class="review-section__title">TESTIMONIALS</h2>
+            <h3 class="review-section__subtitle">What people say about our blog</h3>
+            <p class="review-section__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor.
+            </p>
+        </div>
+        <img src="../../../assets/img/home/line.png" alt="line" class="line" loading="lazy">
+        <div class="users-reviews">
+            <p class="users-reviews__review">{{reviewData.text}} </p>
+            <div class="cont-for-user-buttons">
+                <div class="user-profile">
+                    <img [src]="reviewData.authorImg" loading="lazy" alt="profile picture">
+                    <div class="user-info">
+                        <p class="user-name">{{reviewData.authorName}}</p>
+                        <p class="user-location">{{reviewData.Location}}</p>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button id="back-button" (click)="back()"></button>
+                    <button id="next-button" (click)="next()"></button>
+                </div>
+            </div>
+        </div> 
+    </div>
+</div>
+</section>
+<app-join></app-join>

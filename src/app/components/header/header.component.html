@@ -1,0 +1,24 @@
+<div class="toolbar">
+    <div class="container">
+        <div class="toolbar__img">
+            <a href="#"><img src="../../../assets/img/logo.png" alt="logo"></a>
+        </div>
+        <div class="toolbar__container">
+            <nav class="toolbar__nav" #nav>
+                <a [routerLink]="''" class="toolbar__link">Home</a>
+                <a [routerLink]="'blog'" class="toolbar__link">Blog</a>
+                <a [routerLink]="'about-us'" class="toolbar__link">About Us</a>
+                <a [routerLink]="'contact-us'" class="toolbar__link toolbar__link_margin-32">Contact Us</a>
+            </nav>
+            <button class="toolbar-button">
+                <a href="#footer" id="subsButton">Subscribe</a>
+            </button>
+            <div class="menu-icon" (click)="showMenu(nav, fist_span, third_span)">
+                <span #fist_span></span>
+                <span *ngIf="showMenuIcon"></span>
+                <span #third_span></span>
+            </div>
+        </div>
+        <img src="./img/menu-icon.png" alt="menu" class="menu">
+    </div>
+</div>

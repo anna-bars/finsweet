@@ -1,0 +1,28 @@
+.add-btn {
+    padding: 13px 38px;
+    background: #9f9e9ee6;
+    border: none;
+    border-radius: 15px;
+    display: block;
+    margin: auto;
+}
+form {
+    width: 100%;
+    background-color: white;
+    padding: 20px 45px;
+    border-radius: 18px;
+    box-shadow: 5px 3px 11px 4px gray, -4px -4px 20px 0px #5362b5e0;
+    margin-top: 15px;
+}
+.close-button {
+    padding: 5px 14px;
+    border-radius: 14px;
+    background-color: #9f9e9e6b;
+    display: block;
+    margin: auto;
+}
+img {
+    width: 175px;
+    display: block;
+    margin: auto;
+}

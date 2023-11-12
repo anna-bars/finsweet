@@ -1,0 +1,52 @@
+<footer id="footer" #footer>
+    <div class="container">
+        <a href="#">
+            <img src="../../../assets/img/logo.png" alt="logo">
+        </a>
+        <nav>
+            <a [routerLink]="''">Home</a>
+            <a [routerLink]="'blog'">Blog</a>
+            <a [routerLink]="'about-us'">About Us</a>
+            <a [routerLink]="'contact-us'">Contact Us</a>
+            <a [routerLink]="'privacy-policy'" style="margin: 0">Privacy Policy</a>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="newsletter-subscription">
+           <div class="cont-for-newsletter">
+            <p>
+                Subscribe to our news letter to 
+                get latest updates and news
+            </p>
+            <form method="post">
+                <div class="cont-for-form">
+                    <input type="email" placeholder="Enter Your Email" required #mail>
+                    <button (click)="subscribe(mail.value)" type="button">
+                        Subscribe
+                    </button>
+                </div>
+            </form>
+           </div>
+        </div>
+    </div>
+    <div class="container">
+        <p class="address">Finstreet 118 2561 Fintown</p>
+        <div class="social-wrapper">
+            <a href="https://www.facebook.com/">
+                <img src="../../../assets/img/social-logo/facebook-icon.png" alt="facebook logo">
+            </a>
+            <a href="https://twitter.com/">
+                <img src="../../../assets/img/social-logo/twitter-logo.png" alt="twitter logo">
+            </a>
+            <a href="https://www.instagram.com/">
+                <img src="../../../assets/img/social-logo/instagram-icon.png" alt="instagram logo">
+            </a>
+            <a href="https://am.linkedin.com/" style="margin-right: 0;">
+                <img src="../../../assets/img/social-logo/linkedin-icon.png" alt="linkedin logo">
+            </a>
+        </div>
+    </div>
+    <div class="container">
+        <p class="contact-info">Hello@finsweet.com  020 7993 2905</p>
+    </div>
+</footer>

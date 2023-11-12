@@ -1,0 +1,42 @@
+<header>
+    <div class="header__body">
+        <div class="container">
+            <div class="header__item">
+                <h2 class="header__title">Featured Post</h2>
+                <h2 class="header__subtitle">
+                    Step-by-step guide to choosing great font pairs
+                </h2>
+                <p class="header__author-date">
+                    By <span>John Doe</span>   l   May 23, 2022 
+                </p>
+                <p class="header__main-text">
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
+                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+                </p>
+                <button class="header__button">Read more ></button>
+            </div>
+            <div class="header__item-img">
+                <img src="../../../assets/img/blog/01.png" alt="image" class="header__img">
+            </div>
+        </div>
+    </div>
+</header>
+<section class="posts">
+    <div class="container-without-flex">
+        <div *ngFor="let value of postData">
+            <app-post-block [data]="value"></app-post-block>
+        </div>
+    </div>
+</section>
+
+<section class="category blog-category">
+    <div class="container-without-flex">
+        <h3>Choose A Catagory</h3>
+    </div>
+    <div class="container">
+        <div *ngFor="let item of categoryData" class="category__item">
+            <app-categories [data]="item"></app-categories>
+        </div>
+    </div>
+</section>
+<app-join></app-join>

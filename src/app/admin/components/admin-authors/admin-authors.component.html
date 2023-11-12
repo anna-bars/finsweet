@@ -1,0 +1,44 @@
+<table mat-table [dataSource]="authorData" matSort>
+  <ng-container matColumnDef="id">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header>ID</th>
+    <td mat-cell *matCellDef="let author">{{ author.id }}</td>
+  </ng-container>
+  <ng-container matColumnDef="name">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header>Name</th>
+    <td mat-cell *matCellDef="let author">{{ author.name }}</td>
+  </ng-container>
+  <ng-container matColumnDef="image">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header>Image</th>
+    <td mat-cell *matCellDef="let author">
+      <img [src]="author.img" alt="Author Image" width="50">
+    </td>
+  </ng-container>
+  <ng-container matColumnDef="profession">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header>Profession</th>
+    <td mat-cell *matCellDef="let author">{{ author.profession }}</td>
+  </ng-container>
+  <ng-container matColumnDef="edit">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header>Edit</th>
+    <td mat-cell *matCellDef="let author">
+      <button mat-icon-button class="custom-button" (click)="edit(author)">
+        <mat-icon>edit</mat-icon>
+      </button>
+    </td>
+  </ng-container>
+  <ng-container matColumnDef="delete">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header>Delete</th>
+    <td mat-cell *matCellDef="let author">
+      <button mat-icon-button class="custom-button" (click)="delete(author.id)">
+        <mat-icon>delete</mat-icon>
+      </button>
+    </td>
+  </ng-container>
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>
+<button mat-icon-button class="custom-button" (click)="add()">
+  <mat-icon>add</mat-icon>
+</button>
+<app-author-form *ngIf="show" (sendShow)="close($event)" [data]="authorDat"></app-author-form>
+
+  

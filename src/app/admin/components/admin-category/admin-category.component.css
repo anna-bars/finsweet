@@ -1,0 +1,18 @@
+img {
+    display: block;
+    margin: 8px 0
+}
+button {
+    padding: 10px 17px;
+    background: #23253624;
+    border: none;
+    border-radius: 23px;
+}
+.add-btn {
+    margin-top: 15px;
+}
+app-category-form {
+    position: absolute;
+    z-index: 5;
+    top: 0;
+}

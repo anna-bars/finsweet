@@ -1,0 +1,19 @@
+<mat-table [dataSource]="subscribersData" matSort>
+  <ng-container matColumnDef="mail">
+    <mat-header-cell *matHeaderCellDef mat-sort-header>Email</mat-header-cell>
+    <mat-cell *matCellDef="let row">{{ row.mail }}</mat-cell>
+  </ng-container>
+
+  <ng-container matColumnDef="delete">
+    <mat-header-cell *matHeaderCellDef mat-sort-header>Delete</mat-header-cell>
+    <mat-cell *matCellDef="let row">
+      <button (click)="delete(row.id)">
+        <mat-icon>delete</mat-icon>
+      </button>
+    </mat-cell>
+    </ng-container>
+  
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+  
+    <mat-row *matRowDef="let row; columns: displayedColumns"></mat-row>
+</mat-table>

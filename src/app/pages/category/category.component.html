@@ -1,0 +1,65 @@
+<header>
+    <div class="header__body">
+        <div class="header__container">
+            <h1 class="header__title">Business</h1>
+            <h2 class="header__subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
+                do eiusmod tempor incididunt ut labore.
+            </h2>
+            <p class="header__text">BLOG > BUSINESS</p>
+        </div>
+    </div>
+</header>
+<div class="business__body">     
+    <div class="container post__container" >
+        <section class="posts">
+            <div *ngFor="let item of postData">
+                <app-post-block [data]="item"></app-post-block>
+            </div>
+     </section>
+        <div class="category-tags">
+            <div class="category">
+                
+                <h2 class="category__main-title">Categories</h2>
+                <div class="category__container">
+                    <div class="category__item choose-category__item" *ngFor="let item of category">
+                        <div class="category__img-background">
+                            <img  [src]="item.img" >
+                        </div>
+                        <h2 class="category__subtitle">{{item.title}}</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="tags">
+                <h2 class="tags__title">All Tags</h2>
+                <div class="tags__body">
+                    <div class="tag__row">
+                        <div class="tag__item tag__item_margin tag__item__1">
+                            <p class="tag__name">Business</p>
+                        </div>
+                        <div class="tag__item tag__item__2">
+                            <p class="tag__name">Experience</p>
+                        </div>
+                    </div>
+                    <div class="tag__row">
+                        <div class="tag__item tag__item__3">
+                            <p class="tag__name">Screen</p>
+                        </div>
+                        <div class="tag__item tag__item__4">
+                            <p class="tag__name">Technology</p>
+                        </div>
+                    </div>
+                    <div class="tag__row">
+                        <div class="tag__item  tag__item__5">
+                            <p class="tag__name">Marketing</p>
+                        </div>
+                        <div class="tag__item tag__item__6">
+                            <p class="tag__name">Life</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,66 @@
+@media only screen and (max-width: 800px) {
+    .toolbar__nav {
+        position: fixed;
+        right: -280px;
+        display: flex;
+        flex-direction: column;
+        background-color: #222434f7;
+        top: 0;
+        width: 257px;
+        height: 100%;
+        text-align: left;
+        padding: 66px 0 10px 26px;
+        margin: 0;
+        transition: 0.4s ease-in-out;
+    }
+    .toolbar__link {
+        margin: 7px 0;
+        border-bottom: 1px solid #ffffff1c;
+    }
+    .toolbar__link:hover {
+        color: #a9c8ff;
+    }
+    .menu-icon {
+        display: inline-block;
+        position: relative;
+        right: 0;
+        top: 9px;
+        margin-left: 15px;
+    }
+    .menu-icon span {
+        width: 40px;
+        height: 5px;
+        background: white;
+        display: block;
+    }
+    .menu-icon span:nth-child(2){
+        margin: 8px 0;
+    }
+    .menuClass {
+        right: 0;
+        transition: 0.4s ease-in-out;
+    }
+    .spanRotate1 {
+        transform: rotate(45deg);
+    }
+    .spanRotate2 {
+        transform: rotate(-45deg);
+        margin-top: -3px !important;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .toolbar__img img {
+        width: 80px;
+    }
+    .toolbar-button {
+        padding: 9px 14px;
+        font-size: 16px;
+    }
+    .menu-icon span {
+        width: 30px;
+        height: 3px;
+    }
+    .menu-icon span:nth-child(2){
+        margin: 6px 0;
+    }
+}

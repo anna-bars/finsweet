@@ -1,0 +1,60 @@
+img {
+    width: 150px;
+    margin: 10px 0;
+}
+button {
+    margin: 10px 0;
+}
+.custom-button {
+    background-color: rgb(159, 158, 158);
+    color: #ffffff; 
+}
+app-blog-form {
+    position: absolute;
+    z-index: 5;
+    top: 0;
+}
+@media screen and (max-width: 1160px){
+    img {
+        width: 80px;
+    }
+    .mat-mdc-cell { 
+        font-size: 11px;
+    }
+    .mat-sidenav-content {
+        padding: 10px;
+        margin-left: 157px;
+    }
+    mat-sidenav {
+        width: 135px;
+    }
+}
+@media screen and (max-width: 930px){
+    .mdc-data-table__cell, .mdc-data-table__header-cell {
+        padding: 0 5px 0 7px;
+    }
+    .mat-icon {
+        position: absolute;
+        right: 5px;
+        top: 5px;
+    }
+    .custom-button {
+        width: 34px;
+        height: 34px;
+    }
+}
+@media screen and (max-width: 730px){
+    .text {
+        display: block;
+        width: 150px;
+        height: 80px;
+        overflow-y: scroll;
+        padding: 6px;
+    }
+    .title {
+        width: 95px;
+        height: 73px;
+        overflow-y: scroll;
+        display: block;
+    }
+}

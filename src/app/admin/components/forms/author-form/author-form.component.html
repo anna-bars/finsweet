@@ -1,0 +1,23 @@
+<form>
+  <button mat-icon-button class="custom-button" class="close-button" (click)="close()">
+    X
+  </button>
+  <mat-form-field class="example-full-width">
+    <mat-label>Name</mat-label>
+    <input matInput placeholder="Ex. Jenny Wilson" #name [value]="data.name" required>
+  </mat-form-field><br>
+  <img [src]="imgSrc" alt="Author image" *ngIf="data"><br>
+  <mat-form-field class="example-full-width">
+    <mat-label>Profession</mat-label>
+    <input matInput placeholder="Ex. Content Writer @Company" #profession 
+      [value]="data.profession" required>
+  </mat-form-field><br>
+  <button mat-icon-button class="custom-button" (click)="saveChanges(name,profession)"
+    *ngIf="data">
+    Sava Changes
+  </button>
+  <button mat-icon-button class="custom-button" (click)="create(name, profession)"
+    *ngIf="!data">
+    Create
+  </button>
+</form>

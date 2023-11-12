@@ -1,0 +1,244 @@
+{
+  "authorData": [
+    {
+      "img": "assets/img/authors/author-1.png",
+      "name": "Floyd Miles",
+      "profession": "Content Writer @Company",
+      "id": 1
+    },
+    {
+      "img": "assets/img/authors/author-2.png",
+      "name": "Dianne Russell",
+      "profession": "Content Writer @Company",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "img": "assets/img/authors/author-3.png",
+      "name": "Jenny Wilson",
+      "profession": "Content Writer @Company"
+    },
+    {
+      "id": 4,
+      "img": "assets/img/authors/author-4.png",
+      "name": "Leslie Alexander",
+      "profession": "Content Writer @Company"
+    },
+    {
+      "id": 5,
+      "img": "assets/img/authors/author-5.png",
+      "name": "Guy Hawkins",
+      "profession": "Content Writer @Company"
+    },
+    {
+      "id": 6,
+      "img": "assets/img/authors/author-6.png",
+      "name": "Eleanor Pena",
+      "profession": "Content Writer @Company"
+    },
+    {
+      "id": 7,
+      "img": "assets/img/authors/author-7.png",
+      "name": "Robert Fox",
+      "profession": "Content Writer @Company"
+    },
+    {
+      "id": 8,
+      "img": "assets/img/authors/author-8.png",
+      "name": "Jacob Jones",
+      "profession": "Content Writer @Company"
+    }
+  ],
+  "categoryData": [
+    {
+      "id": 1,
+      "img": "assets/img/category/business-01.png",
+      "title": "Business",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+    },
+    {
+      "id": 2,
+      "img": "assets/img/category/startup-02.png",
+      "title": "Startup",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+    },
+    {
+      "id": 3,
+      "img": "assets/img/category/economy-03.png",
+      "title": "Economy",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+    },
+    {
+      "img": "assets/img/category/technology-04.png",
+      "title": "Technology",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+      "id": 4
+    }
+  ],
+  "postBlock": [
+    {
+      "id": 1,
+      "img": "assets/img/blog/02.png",
+      "category": "Startup",
+      "title": "Design tips for designers that cover everything you need",
+      "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+    },
+    {
+      "id": 2,
+      "img": "assets/img/blog/03.png",
+      "category": "BUSINESS",
+      "title": "How to build rapport with your web design clients",
+      "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+    },
+    {
+      "id": 3,
+      "img": "assets/img/blog/04.png",
+      "category": "Startup",
+      "title": "Logo design trends to avoid in 2022",
+      "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+    },
+    {
+      "id": 4,
+      "img": "assets/img/blog/05.png",
+      "category": "Technology",
+      "title": "Design tips for designers that cover everything you need",
+      "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+    },
+    {
+      "id": 5,
+      "img": "assets/img/blog/06.png",
+      "category": "Economy",
+      "title": "8 Figma design systems you can download for free today",
+      "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+    }
+  ],
+  "postBlockBusiness": [
+    {
+      "id": 1,
+      "img": "../../../assets/img/category-page/01.png",
+      "category": "Business",
+      "title": "Top 6 free website mockup tools 2022",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 0 incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec."
+    },
+    {
+      "id": 2,
+      "img": "../../../assets/img/category-page/01.png",
+      "category": "Business",
+      "title": "Step-by-step guide to choosing great font pairs",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 0 incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec."
+    },
+    {
+      "id": 3,
+      "img": "../../../assets/img/category-page/01.png",
+      "category": "Business",
+      "title": "Ten free foogle fonts that you should use",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 0 incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec."
+    },
+    {
+      "id": 4,
+      "img": "../../../assets/img/category-page/01.png",
+      "category": "Business",
+      "title": "What did I learn from doing 50+ design sprints?",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 0 incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec."
+    }
+  ],
+  "authorPost": [
+    {
+      "id": 1,
+      "img": "../../../assets/img/author/02.png",
+      "category": "Business",
+      "title": "Font sizes in UI design: The complete guide to follow",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "id": 2,
+      "img": "../../../assets/img/author/03.png",
+      "category": "Economy",
+      "title": "How to build rapport with your web design clients",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }
+  ],
+  "subscribers": [
+    {
+      "mail": "news@mail.ru",
+      "id": 1
+    },
+    {
+      "mail": "22@gmail.com",
+      "id": 2
+    }
+  ],
+  "privacyPolicy": [
+    {
+      "mainText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non. Sit amet nulla facilisi morbi tempus iaculis urna. Lorem sed risus ultricies tristique nulla aliquet enim. Volutpat blandit aliquam etiam erat velit. Orci eu lobortis elementum nibh. Ipsum suspendisse ultrices gravida dictum fusce ut placerat orci nulla. Neque convallis a cras semper auctor neque vitae tempus quam.",
+      "secondParagraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non. Sit amet nulla facilisi morbi tempus iaculis urna. Lorem sed risus ultricies tristique nulla aliquet enim. Volutpat blandit aliquam etiam erat velit. Orci eu lobortis elementum nibh. Ipsum suspendisse ultrices gravida dictum fusce ut placerat orci nulla. Neque convallis a cras semper auctor neque vitae tempus quam.",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+      "thirdParagraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non. Sit amet nulla facilisi morbi tempus iaculis urna. Lorem sed risus ultricies tristique nulla aliquet enim. Volutpat blandit aliquam etiam erat velit. Orci eu lobortis elementum nibh. Ipsum suspendisse ultrices gravida dictum fusce ut placerat orci nulla. Neque convallis a cras semper auctor neque vitae tempus quam.",
+      "title": "Lorem ipsum dolor sit amet",
+      "id": 1
+    }
+  ], 
+  "review": [
+    {
+      "id": 1,
+      "text": " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "authorImg": "../../../assets/img/authors/author-1.png",
+      "authorName": "Floyd Miles",
+      "Location": "Paris, France"
+    },
+    {
+      "id": 2,
+      "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "authorImg": "../../../assets/img/authors/author-2.png",
+      "authorName": "Dianne Russell",
+      "Location": "Sydney, Australia"
+    },
+    {
+      "id": 3,
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "authorImg": "../../../assets/img/home/profile-picture.png",
+      "authorName": "Jonathan Vallem",
+      "Location": "New york, USA"
+    },
+    {
+      "id": 4,
+      "text": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "authorImg": "../../../assets/img/authors/author-3.png",
+      "authorName": "Jenny Wilson",
+      "Location": "London, United Kingdom"
+    },
+    {
+      "id": 5,
+      "text": " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "authorImg": "../../../assets/img/authors/author-4.png",
+      "authorName": "Leslie Alexander",
+      "Location": "Toronto, Canada"
+    }
+  ],
+  "postData": [
+    {  
+      "id": 1,
+      "img": "/assets/img/blog-post/001.png",
+      "title": "A UX Case Study Creating a Studious Environment for Students: ",
+      "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "date": "l   Aug 23, 2021",
+      "author": "John Doe"
+    },
+    {  
+      "id": 1,
+      "img": "/assets/img/blog-post/001.png",
+      "title": "A UX Case Study Creating a Studious Environment for Students: ",
+      "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "date": "l   Aug 23, 2021",
+      "author": "John Doe"
+    },
+    {  
+      "id": 1,
+      "img": "/assets/img/blog-post/001.png",
+      "title": "A UX Case Study Creating a Studious Environment for Students: ",
+      "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "date": "l   Aug 23, 2021",
+      "author": "John Doe"
+    }
+  ]
+}

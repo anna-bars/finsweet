@@ -1,0 +1,29 @@
+<form class="example-form" [formGroup]="form">
+  <button mat-icon-button (click)="close()" class="closeButton">X</button>
+  <mat-form-field class="example-full-width">
+    <mat-label>Name</mat-label>
+    <input matInput placeholder="Ex. Business" #name formControlName="name" name="name" [value]="data.title">
+  </mat-form-field><br>
+  <mat-form-field>
+    <mat-label>Select an option</mat-label>
+    <mat-select #sel (selectionChange)="changeValue(sel)" formControlName="select" name="select" required>
+      <mat-option value="Business">Business</mat-option>
+      <mat-option value="Startup">Startup</mat-option>
+      <mat-option value="Economy">Economy</mat-option>
+      <mat-option value="Technology">Technology</mat-option>
+    </mat-select>
+  </mat-form-field><br>
+  <img [src]="imgSrc" alt="category image"><br>
+  <mat-form-field>
+    <textarea matInput required placeholder="Description for category" 
+    [value]="data.description" formControlName="desc" name="desc" rows="4" cols="50" #description></textarea>
+  </mat-form-field><br>
+  <button mat-icon-button class="add-btn" (click)="create(name, description)"
+   [disabled]="form.invalid" *ngIf="!data">
+    Create
+  </button>
+  <button mat-icon-button class="add-btn" (click)="saveChanges(name, description)"
+   [disabled]="form.invalid" *ngIf="data">
+    Save Changes
+  </button>
+</form>

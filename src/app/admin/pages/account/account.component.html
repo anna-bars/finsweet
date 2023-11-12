@@ -1,0 +1,43 @@
+<mat-toolbar color="primary">
+  <span>Finsweet</span>
+  <span class="example-spacer"></span>
+  <button mat-raised-button (click)="logOut()">Log Out</button>
+</mat-toolbar>
+<mat-sidenav-container>
+  <mat-sidenav opened mode="side">
+    <mat-list>
+      <mat-list-item>
+        <a [routerLink]="'/admin/account'">
+        <mat-icon>dashboard</mat-icon>
+        <p>Dashboard</p>
+      </a></mat-list-item>
+      <mat-list-item> 
+        <a [routerLink]="'category'">
+        <mat-icon>category</mat-icon>
+        <p>Category</p></a>
+      </mat-list-item>
+      <mat-list-item>
+        <a [routerLink]="'blog'">
+        <mat-icon>feed</mat-icon>
+        <p>Blog</p></a>
+      </mat-list-item>
+      <mat-list-item>
+        <a [routerLink]="'authors'">
+        <mat-icon>groups</mat-icon>
+        <p>Authors</p></a>
+      </mat-list-item>
+      <mat-list-item><a [routerLink]="'subscribe'">
+        <mat-icon>group add</mat-icon>
+        <p>Subscribe</p></a>
+      </mat-list-item>
+      <mat-list-item>
+        <a [routerLink]="'privacy-policy'">
+        <mat-icon>security</mat-icon>
+        <p>Privacy Policy</p></a>
+      </mat-list-item>
+    </mat-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>
